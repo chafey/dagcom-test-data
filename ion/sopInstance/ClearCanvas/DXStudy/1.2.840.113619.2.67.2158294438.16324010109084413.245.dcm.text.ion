@@ -1,0 +1,221 @@
+{
+  sourceInfo: {
+    uri: "file:///workspaces/dicom2ion-js/extern/dagcom-test-data/dicom/ClearCanvas/DXStudy/1.2.840.113619.2.67.2158294438.16324010109084413.245.dcm"
+  },
+  options: {
+    maximumInlineDataLength: 256,
+    dataDictionary: {
+      description: "Unknown edition",
+      sha256: "5e102dbb8bb7780d812f86ec5fa98af059579b3ccbc1b39ec26c3fc0ca960d3f"
+    }
+  },
+  fileInfo: {
+    sha256: "dc3ff8e550c833236bbee92d163762698b7b0b7b68a1af1b060243580741b7a6",
+    createdAt: 2021-02-12T14:31:16.819Z,
+    dataSetOffset: 366
+  },
+  dataSet: {
+    '20500000': {{EAAAAA==}},
+    StudyInstanceUID: "1.2.840.113619.2.67.2158294438.15745010109084247.20000",
+    SeriesInstanceUID: "1.2.840.113619.2.67.2158294438.16113010109084403.10003",
+    SOPInstanceUID: "1.2.840.113619.2.67.2158294438.16324010109084413.245",
+    SOPClassUID: "1.2.840.10008.5.1.4.1.1.1.1",
+    SpecificCharacterSet: "ISO_IR 100",
+    PatientName: "MISTER^DX",
+    PatientID: "3524578",
+    PatientBirthDate: null,
+    PatientSex: null,
+    StudyDescription: "CHEST",
+    AccessionNumber: "0000000004",
+    StudyID: "300018363",
+    StudyDate: "20010109",
+    StudyTime: "084353.000000",
+    SeriesDescription: "DX CHEST",
+    SeriesNumber: "28860",
+    Modality: "DX",
+    BodyPartExamined: "CHEST",
+    SeriesDate: "20010109",
+    SeriesTime: "084403.000000",
+    InstanceNumber: "1",
+    AcquisitionDate: "20010109",
+    AcquisitionTime: "084358.000000",
+    ContentDate: "20010109",
+    ContentTime: "084413.000000",
+    ImageType: "ORIGINAL\\PRIMARY\\",
+    ImageLaterality: "U",
+    AnatomicRegionSequence: [
+      {
+        '00080000': {{KgAAAA==}},
+        CodeValue: "T-D3000",
+        CodingSchemeDesignator: "SNM3",
+        CodeMeaning: "Chest"
+      }
+    ],
+    Rows: 2022,
+    Columns: 1736,
+    BitsAllocated: 16,
+    BitsStored: 14,
+    HighBit: 13,
+    PixelRepresentation: 0,
+    SamplesPerPixel: 1,
+    TransferSyntaxUID: "1.2.840.10008.1.2",
+    PixelData: {
+      dataOffset: 7562,
+      length: 7020384,
+      sha256: "ac937d79e5d0a4804588daffff7fdea007e659f25a1b2311efab1c6e2b0fb60c"
+    },
+    PhotometricInterpretation: "MONOCHROME2",
+    RescaleSlope: "1",
+    RescaleIntercept: "0",
+    WindowCenter: "8191.5\\8191.5\\8191.5",
+    WindowWidth: "16383\\12287\\24574",
+    Manufacturer: "GE MEDICAL SYSTEMS",
+    ManufacturerModelName: "ADS_1.0",
+    StationName: "STATION_NAME",
+    SourceApplicationEntityTitle: "\x13",
+    InstitutionName: null,
+    ImplementationVersionName: "OFFIS_DCMTK_354",
+    ReferringPhysicianName: null,
+    PatientAge: null,
+    InstitutionAddress: null,
+    FileMetaInformationGroupLength: {{3gAAAA==}},
+    FileMetaInformationVersion: {{AQE=}},
+    MediaStorageSOPClassUID: "1.2.840.10008.5.1.4.1.1.1.1",
+    MediaStorageSOPInstanceUID: "1.2.840.113619.2.67.2158294438.16324010109084413.245",
+    ImplementationClassUID: "1.2.276.0.7230010.3.0.3.5.4",
+    ConversionType: "WSD",
+    PresentationIntentType: "FOR PRESENTATION",
+    OperatorsName: null,
+    SourceImageSequence: [
+      {
+        '00080000': {{YAAAAA==}},
+        ReferencedSOPClassUID: "1.2.840.10008.5.1.4.1.1.1.1.1",
+        ReferencedSOPInstanceUID: "1.2.840.113619.2.67.2158294438.16113010109084401.1"
+      }
+    ],
+    '00100000': {{OgAAAA==}},
+    '00180000': {{fAIAAA==}},
+    KVP: "120",
+    SoftwareVersions: "Ads Application Package VERSION ADS_10.12.1",
+    DistanceSourceToDetector: "1800",
+    FieldOfViewShape: "RECTANGLE",
+    FieldOfViewDimensions: "404\\347",
+    ExposureTime: "17",
+    XRayTubeCurrent: "400",
+    Exposure: "7",
+    ExposureInuAs: "7040",
+    ImageAndFluoroscopyAreaDoseProduct: "3.89315",
+    ImagerPixelSpacing: "0.2\\0.2",
+    Grid: "FIXED\\FOCUSED",
+    FocalSpots: "1.2",
+    AcquisitionDeviceProcessingDescription: "Look LC 7",
+    AcquisitionDeviceProcessingCode: "8#1141101071001009585100#9710#300100#2030#0400#35240",
+    RelativeXRayExposure: "352",
+    PositionerType: null,
+    CollimatorShape: "RECTANGULAR",
+    CollimatorLeftVerticalEdge: "0",
+    CollimatorRightVerticalEdge: "0",
+    CollimatorUpperHorizontalEdge: "0",
+    CollimatorLowerHorizontalEdge: "0",
+    ViewPosition: "LL",
+    Sensitivity: "0.21333063",
+    DetectorTemperature: "31.1",
+    DetectorType: "SCINTILLATOR",
+    DetectorConfiguration: "AREA",
+    DetectorID: null,
+    DetectorBinning: "1\\1",
+    DetectorElementPhysicalSize: "409.6\\409.6",
+    DetectorElementSpacing: "0.2\\0.2",
+    DetectorActiveShape: "RECTANGLE",
+    DetectorActiveDimensions: "409.6\\409.6",
+    FieldOfViewOrigin: "13\\156",
+    FieldOfViewRotation: "0",
+    FieldOfViewHorizontalFlip: "YES",
+    ExposureControlMode: "AUTOMATIC",
+    ExposureControlModeDescription: "AEC_center_cell",
+    '00200000': {{vAAAAA==}},
+    PatientOrientation: "P\\F",
+    '00280000': {{/gAAAA==}},
+    QualityControlImage: "NO",
+    BurnedInAnnotation: "NO",
+    PixelIntensityRelationship: "LOG",
+    PixelIntensityRelationshipSign: -1,
+    RescaleType: "US",
+    WindowCenterWidthExplanation: "NORMAL\\HARDER\\SOFTER",
+    LossyImageCompression: "00",
+    '00400000': {{HgAAAA==}},
+    EntranceDose: 0,
+    CommentsOnRadiationDose: "2 %",
+    AcquisitionContextSequence: null,
+    '00540000': {{xgAAAA==}},
+    ViewCodeSequence: [
+      {
+        '00080000': {{MAAAAA==}},
+        CodeValue: "R-10236",
+        CodingSchemeDesignator: "SNM3",
+        CodeMeaning: "left lateral",
+        '00540000': {{KAAAAA==}},
+        ViewModifierCodeSequence: [
+          {
+            '00080000': {{DAAAAA==}},
+            CodingSchemeDesignator: "SNM3"
+          }
+        ]
+      }
+    ],
+    PatientOrientationCodeSequence: [
+      {
+        '00080000': {{KgAAAA==}},
+        CodeValue: "F-10440",
+        CodingSchemeDesignator: "SNM3",
+        CodeMeaning: "erect"
+      }
+    ],
+    '00880000': {{Cg4AAA==}},
+    IconImageSequence: [
+      {
+        Rows: 64,
+        Columns: 54,
+        BitsAllocated: 8,
+        BitsStored: 8,
+        HighBit: 7,
+        PixelRepresentation: 0,
+        SamplesPerPixel: 1,
+        PixelData: {
+          dataOffset: 4058,
+          length: 3456,
+          sha256: "0852242525d3bc8520c99364664555a075ac4d4c4d1560ed27b9a3ad55993ed9"
+        },
+        PhotometricInterpretation: "MONOCHROME2",
+        '00280000': {{WgAAAA==}},
+        '7FE00000': {{iA0AAA==}}
+      }
+    ],
+    PresentationLUTShape: "IDENTITY",
+    '7FE00000': {{aB9rAA==}},
+    '00450000': {{jAUAAA==}},
+    '00450010': {{R0VNU19TRU5PXzAy}},
+    '0045101b': {{bGVmdCBsYXRlcmFsICA=}},
+    '00451020': {{MCA=}},
+    '00451026': {
+      dataOffset: 2338,
+      length: 1024,
+      sha256: "2ba0b2cbae11bcc13b10cd5691d6dfde07bb4ba86a476da60f2049e9682a2f41"
+    },
+    '00451029': {{MFwxIA==}},
+    '0045102a': {{LTEgICAgICAgICAg}},
+    '0045102b': {{LTEgICAgICAgICAg}},
+    '00451050': {{MS4yLjg0MC4xMTM2MTkuMi42Ny4yMTU4Mjk0NDM4LjE2MzI0MDEwMTA5MDg0NDEzLjI0Ng==}},
+    '00451051': {{MS4yLjg0MC4xMTM2MTkuMi42Ny4yMTU4Mjk0NDM4LjE2MTEzMDEwMTA5MDg0NDAzLjEwMDA0}},
+    '00451052': {{Nzc=}},
+    '00451053': {{MTU2NQ==}},
+    '00451054': {{MC45NzAwMDAwMw==}},
+    '00451055': {{MTE0XDExMFwxMDdcMTAwXDEwMFw5NVw4NVwxMDAg}},
+    '00451056': {{MSA=}},
+    '00451057': {{MzAwIA==}},
+    '00451062': {{ODY5MiAgICAgICAg}},
+    '00451063': {{MTYzODMgICAgICAg}},
+    '00451065': {{MzQwMA==}},
+    '00451066': {{MCA=}}
+  }
+}

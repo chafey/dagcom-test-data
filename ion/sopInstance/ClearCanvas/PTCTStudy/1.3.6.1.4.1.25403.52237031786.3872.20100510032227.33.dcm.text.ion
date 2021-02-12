@@ -1,0 +1,148 @@
+{
+  sourceInfo: {
+    uri: "file:///workspaces/dicom2ion-js/extern/dagcom-test-data/dicom/ClearCanvas/PTCTStudy/1.3.6.1.4.1.25403.52237031786.3872.20100510032227.33.dcm"
+  },
+  options: {
+    maximumInlineDataLength: 256,
+    dataDictionary: {
+      description: "Unknown edition",
+      sha256: "5e102dbb8bb7780d812f86ec5fa98af059579b3ccbc1b39ec26c3fc0ca960d3f"
+    }
+  },
+  fileInfo: {
+    sha256: "dc3ff8e550c833236bbee92d163762698b7b0b7b68a1af1b060243580741b7a6",
+    createdAt: 2021-02-12T14:33:05.8629999999999995Z,
+    dataSetOffset: 340
+  },
+  dataSet: {
+    StudyInstanceUID: "1.3.6.1.4.1.25403.52237031786.3872.20100510032220.1",
+    SeriesInstanceUID: "1.3.6.1.4.1.25403.52237031786.3872.20100510032227.20",
+    SOPInstanceUID: "1.3.6.1.4.1.25403.52237031786.3872.20100510032227.33",
+    SOPClassUID: "1.2.840.10008.5.1.4.1.1.128",
+    PatientName: "Patient^Anonymous",
+    PatientID: "12345678",
+    PatientBirthDate: "19560324",
+    PatientSex: "M",
+    StudyDescription: "Neck^HeadNeckPETCT",
+    ProtocolName: null,
+    AccessionNumber: "00000001",
+    StudyID: null,
+    StudyDate: "20100510",
+    StudyTime: "133352.906000",
+    SeriesDescription: "PET WB",
+    SeriesNumber: "606",
+    Modality: "PT",
+    SeriesDate: "20100510",
+    SeriesTime: "133645.250000",
+    InstanceNumber: "12",
+    AcquisitionNumber: "1",
+    AcquisitionDate: "20100510",
+    AcquisitionTime: "134248.468000",
+    ContentDate: "20100510",
+    ContentTime: "135133.000000",
+    ImageType: "ORIGINAL\\PRIMARY",
+    Rows: 128,
+    Columns: 128,
+    BitsAllocated: 16,
+    BitsStored: 16,
+    HighBit: 15,
+    PixelRepresentation: 1,
+    SamplesPerPixel: 1,
+    TransferSyntaxUID: "1.2.840.10008.1.2.1",
+    PixelData: {
+      dataOffset: 2132,
+      length: 32768,
+      sha256: "2b44cc330c52c80884b29cd950dcc79b108c6372e7e8a31827be3924739b42d9"
+    },
+    PhotometricInterpretation: "MONOCHROME2",
+    RescaleSlope: "1.0643264",
+    RescaleIntercept: "0",
+    WindowCenter: "5847",
+    WindowWidth: "10524",
+    FrameOfReferenceUID: "1.3.6.1.4.1.25403.52237031786.3872.20100510032227.22",
+    ImagePositionPatient: "-170.31829\\-379.29324\\-388.58",
+    ImageOrientationPatient: "1\\0\\0\\0\\1\\0",
+    PixelSpacing: "2.6533637\\2.6533637",
+    Manufacturer: "CPS",
+    ManufacturerModelName: "1024",
+    SourceApplicationEntityTitle: null,
+    ImplementationVersionName: "Dicom 0.1",
+    ReferringPhysicianName: null,
+    PatientAge: null,
+    PatientWeight: null,
+    FileMetaInformationGroupLength: {{xAAAAA==}},
+    FileMetaInformationVersion: {{AAE=}},
+    MediaStorageSOPClassUID: "1.2.840.10008.5.1.4.1.1.128",
+    MediaStorageSOPInstanceUID: "1.3.6.1.4.1.25403.52237031786.3872.20100510032227.33",
+    ImplementationClassUID: "1.3.6.1.4.1.25403.1.1.1",
+    SliceThickness: "3.3750001",
+    DeviceSerialNumber: null,
+    CollimatorType: "NONE",
+    DateOfLastCalibration: "20100419\\20100225",
+    TimeOfLastCalibration: "130147.406000\\121934.000000",
+    ActualFrameDuration: "360000",
+    PatientPosition: "HFS",
+    PositionReferenceIndicator: null,
+    SliceLocation: "-388.58",
+    CorrectedImage: "RAN\\DTIM\\NORM\\ATTN\\SCAT\\DECY",
+    RescaleType: "BQML",
+    RequestedProcedureDescription: "Whole Body",
+    EnergyWindowRangeSequence: [
+      {
+        EnergyWindowLowerLimit: "400",
+        EnergyWindowUpperLimit: "650",
+        ItemDelimitationItem: null
+      }
+    ],
+    RadiopharmaceuticalInformationSequence: [
+      {
+        RadiopharmaceuticalStartTime: "122800.000000",
+        RadionuclideTotalDose: "2.36e+008",
+        RadionuclideHalfLife: "6586.2",
+        RadionuclidePositronFraction: "0.97",
+        RadionuclideCodeSequence: [
+        ],
+        ItemDelimitationItem: null
+      }
+    ],
+    NumberOfSlices: 83,
+    PatientOrientationCodeSequence: [
+      {
+        CodeValue: "F-10450",
+        CodingSchemeDesignator: "SNM3",
+        CodeMeaning: "recumbent",
+        PatientOrientationModifierCodeSequence: [
+          {
+            CodeValue: "F-10340",
+            CodingSchemeDesignator: "SNM3",
+            CodeMeaning: "supine",
+            ItemDelimitationItem: null
+          }
+        ],
+        ItemDelimitationItem: null
+      }
+    ],
+    PatientGantryRelationshipCodeSequence: [
+      {
+        CodeValue: "F-10470",
+        CodingSchemeDesignator: "SNM3",
+        CodeMeaning: "headfirst",
+        ItemDelimitationItem: null
+      }
+    ],
+    SeriesType: "WHOLE BODY\\IMAGE",
+    Units: "BQML",
+    CountsSource: "EMISSION",
+    RandomsCorrectionMethod: "DLYD",
+    AttenuationCorrectionMethod: "CT-derived mu-map",
+    DecayCorrection: "START",
+    ReconstructionMethod: "OSEM 6i16s",
+    ScatterCorrectionMethod: "Model-based",
+    AxialAcceptance: "17",
+    AxialMash: "3\\4",
+    FrameReferenceTime: "0",
+    DecayFactor: "1.058772",
+    DoseCalibrationFactor: "2027353.9",
+    ImageIndex: 12
+  }
+}
