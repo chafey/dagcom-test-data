@@ -1,0 +1,88 @@
+{
+  imageFrames: [
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.226.dcm.ion-0.htj2k",
+      ImagePositionPatient: "20.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.227.dcm.ion-0.htj2k",
+      ImagePositionPatient: "17.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.228.dcm.ion-0.htj2k",
+      ImagePositionPatient: "14.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.229.dcm.ion-0.htj2k",
+      ImagePositionPatient: "11.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.230.dcm.ion-0.htj2k",
+      ImagePositionPatient: "8.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.231.dcm.ion-0.htj2k",
+      ImagePositionPatient: "5.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.232.dcm.ion-0.htj2k",
+      ImagePositionPatient: "2.600000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.233.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-0.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.234.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-3.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.235.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-6.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.236.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-9.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.237.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-12.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.238.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-15.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.239.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-18.400000\\-93.000000\\100.000000"
+    },
+    {
+      path: "1.2.840.113619.2.5.1762583153.215519.978957063.240.dcm.ion-0.htj2k",
+      ImagePositionPatient: "-21.400000\\-93.000000\\100.000000"
+    }
+  ],
+  Modality: "MR",
+  SeriesDescription: "SAG T-1 POST GAD",
+  FrameOfReferenceUID: "1.2.840.113619.2.5.1762583153.223134.978956938.470",
+  PixelSpacing: "0.390625\\0.390625",
+  ImageOrientationPatient: "0.000000\\1.000000\\0.000000\\0.000000\\0.000000\\ -1.000000",
+  SamplesPerPixel: 1,
+  PhotometricInterpretation: "MONOCHROME2",
+  Rows: 512,
+  Columns: 512,
+  BitsAllocated: 16,
+  BitsStored: 16,
+  HighBit: 15,
+  PixelRepresentation: 1,
+  RescaleSlope: 1,
+  RescaleIntercept: 0,
+  WindowCenter: 1042,
+  WindowWidth: 2085,
+  ImagePositionPatient: "20.600000\\-93.000000\\100.000000",
+  sliceIntervalVector: {
+    x: 3,
+    y: 0,
+    z: 0
+  },
+  sliceSpacing: 3
+}
